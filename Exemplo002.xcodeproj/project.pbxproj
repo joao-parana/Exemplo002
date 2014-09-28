@@ -63,7 +63,10 @@
 				092DC13219D7AB3100447F35 /* Exemplo002Tests */,
 				092DC11B19D7AB3100447F35 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		092DC11B19D7AB3100447F35 /* Products */ = {
 			isa = PBXGroup;
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					092DC11919D7AB3100447F35 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 65UP4NG3YP;
 					};
 					092DC12E19D7AB3100447F35 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = Exemplo002/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = Exemplo002/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
