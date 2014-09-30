@@ -36,7 +36,7 @@ struct SensorWidget {
   }
 }
 
-class Composite {
+public class Composite {
   var parent: Composite?
   var id = 0
   var dbId = 0

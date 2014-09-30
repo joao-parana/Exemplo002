@@ -78,8 +78,9 @@ class Coordinate: Printable {
   }
 }
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
+  
   let Y_DESLOC: CGFloat = 30.0
   let LABEL_WIDTH: CGFloat = 200
   let LABEL_HEIGHT: CGFloat = 25
@@ -109,7 +110,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var myTitle: UILabel!
   
   
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
     
     println("myTitle.text = \(myTitle.text) ")
@@ -148,9 +149,11 @@ class ViewController: UIViewController {
     
     createAndDisplayLabel("GIG", x: 10.0, y: posY) ; posY += Y_DESLOC
     createAndDisplayLabel("LHR", x: 10.0, y: posY) ; posY += Y_DESLOC
+    
+    println("Terminou viewDidLoad no Controller ")
   }
 
-  override func didReceiveMemoryWarning() {
+  public override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
