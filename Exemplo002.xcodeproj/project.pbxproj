@@ -14,6 +14,7 @@
 		092DC12A19D7AB3100447F35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092DC12819D7AB3100447F35 /* LaunchScreen.xib */; };
 		092DC13619D7AB3100447F35 /* Exemplo002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC13519D7AB3100447F35 /* Exemplo002Tests.swift */; };
 		0983547E19D8A79A006AD603 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0983547D19D8A79A006AD603 /* README.md */; };
+		09D961C019D9F4AC005B6509 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D961BF19D9F4AC005B6509 /* Composite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		092DC13419D7AB3100447F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092DC13519D7AB3100447F35 /* Exemplo002Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemplo002Tests.swift; sourceTree = "<group>"; };
 		0983547D19D8A79A006AD603 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09D961BF19D9F4AC005B6509 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				092DC12619D7AB3100447F35 /* Images.xcassets */,
 				092DC12819D7AB3100447F35 /* LaunchScreen.xib */,
 				092DC11D19D7AB3100447F35 /* Supporting Files */,
+				09D961BF19D9F4AC005B6509 /* Composite.swift */,
 			);
 			path = Exemplo002;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0983547E19D8A79A006AD603 /* README.md in Sources */,
+				09D961C019D9F4AC005B6509 /* Composite.swift in Sources */,
 				092DC12219D7AB3100447F35 /* ViewController.swift in Sources */,
 				092DC12019D7AB3100447F35 /* AppDelegate.swift in Sources */,
 			);

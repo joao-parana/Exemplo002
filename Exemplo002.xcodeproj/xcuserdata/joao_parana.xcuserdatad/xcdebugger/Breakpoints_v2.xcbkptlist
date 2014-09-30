@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Exemplo002/ViewController.swift"
-            timestampString = "433623276.618454"
+            timestampString = "433633317.561376"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "Coordinate"
             landmarkType = "3">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Exemplo002/ViewController.swift"
-            timestampString = "433623335.824249"
+            timestampString = "433633317.561376"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "Coordinate"
             landmarkType = "3">
          </BreakpointContent>
