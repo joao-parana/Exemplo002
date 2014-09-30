@@ -182,7 +182,7 @@ public class ViewController: UIViewController {
     var label: UILabel = UILabel(frame: CGRectMake(posX,
       posY, LABEL_WIDTH, LABEL_HEIGHT))
     label.text = key - ""
-    label.textAlignment = NSTextAlignment.Left
+    label.textAlignment = .Left // NSTextAlignment.Left
     self.view.addSubview(label)
     return label
   }
